@@ -1,0 +1,50 @@
+.featureContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    margin: 50px 10px 20px 10px;
+}
+
+.features {
+    width: 100%;
+    max-width: 1024px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.featuredImg {
+    width: 100%;
+    object-fit: cover;
+    opacity: 90%;
+}
+.featureItem {
+    flex: 1;
+    border-radius: 10px;
+    overflow: hidden;
+    cursor: pointer;
+}
+.featureTi {
+    bottom: 0;
+    margin: 10px;
+    color: black;
+}
+.featureTi>h1 {
+    margin: 0;
+    font-size: 18px;
+}
+.featureTi>h2 {
+    margin: 0;
+    font-size: 14px;
+}
+
+@media (max-width: 768px) {
+    .featureTi>h1 {
+        font-size: 2.8vw;
+    }
+    .featureTi>h2 {
+        font-size: 2.4vw;
+    }
+}

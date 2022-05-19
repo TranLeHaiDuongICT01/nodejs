@@ -1,0 +1,15 @@
+.homeTitle {
+    width: 100%;
+    max-width: 1024px;
+    font-size: 20px;
+}
+.footerContainer2 {
+    width: 90%;
+}
+.footerContainer1 {
+    display: flex;
+    justify-content: center;
+}
+.homeContainer {
+    width: 100%;
+}

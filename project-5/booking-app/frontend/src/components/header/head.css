@@ -1,0 +1,21 @@
+.header {
+    background-color: #003580;
+    color: white;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    padding: 5px;
+}
+
+.headerContainer {
+    width: 100%;
+    max-width: 1024px;
+    margin: 20px 0px 30px 0px;
+    padding: 10px;
+}
+
+.headerContainer.listNode {
+    margin: 20px 0px 0px 0px;
+}
+
+
